@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_background_activity_main"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/background_search"
+       >
+
+        <EditText
+            android:id="@+id/activity_main_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:padding="2dp"
+            android:textColor="@color/colorText"/>
+
+        <Button
+            android:id="@+id/activity_main_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="ok"
+            android:padding="2dp"
+            android:backgroundTint="@color/colorStroke"
+            android:textColor="@color/colorText"
+            android:layout_alignEnd="@+id/activity_main_edit_text"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_main_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background_activity_main"/>
+
+</LinearLayout>

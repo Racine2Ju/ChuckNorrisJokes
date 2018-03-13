@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ce103d</color>
+    <color name="colorPrimaryDark">#080808</color>
+    <color name="colorAccent">#ffffff</color>
+
+
+    <color name="colorText">#ffffff</color>
+    <color name="colorStroke">#ce103d</color>
+
+    <!-- Dégradé contenu activity_main -->
+    <color name="gradient_start_content_background_activity_main">#252525</color>
+    <color name="gradient_middle_content_background_activity_main">#1a1a1a</color>
+    <color name="gradient_end_content_background_activity_main">#000000</color>
+
+</resources>
